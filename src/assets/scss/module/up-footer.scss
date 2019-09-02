@@ -1,0 +1,17 @@
+.up-footer{
+    position: relative;
+    top: 53%;
+    background-color:#3f4143;
+    z-index: 1;
+    .btn-group{
+        width: 100%;
+       
+        button{
+            flex-basis: 33.38%;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+    }
+}

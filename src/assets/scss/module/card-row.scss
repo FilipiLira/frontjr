@@ -1,0 +1,26 @@
+.card-row{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    box-sizing: border-box!important;
+
+    @media (min-width: 999) {
+        .card-row:first-child{
+            width: 100%;
+        }
+    }
+
+    .card-footer{
+        border: none;
+
+        i:hover{
+            color: red;
+        }
+    }
+}

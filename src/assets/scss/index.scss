@@ -1,0 +1,57 @@
+@import '~bootstrap/scss/bootstrap';
+
+$fa-font-path: "~font-awesome/fonts";
+@import '~font-awesome/scss/font-awesome';
+
+//Variáveis
+@import './helpers/variaveis.scss';
+
+//Mixins
+@import './helpers/mixins.scss';
+
+//Layouts
+@import './layout/l-global.scss';
+@import './layout/l-article.scss';
+
+//Modules
+@import './module/filter.scss';
+@import './module/carousel-element.scss';
+@import './module/positiontop-1.scss';
+@import './module/carousel-element-title.scss';
+@import './module/card-row.scss';
+@import './module/article-img.scss';
+@import './module/card-article-body.scss';
+@import './module/involve.scss';
+@import './module/down-menu.scss';
+@import './module/involve-card-body.scss';
+@import './module/card-article-img.scss';
+@import './module/social-medias.scss';
+@import './module/boots-display-3.scss';
+@import './module/none-style-list.scss';
+@import './module/perfil-img.scss';
+@import './module/footer-container.scss';
+@import './module/boots-navbar-brand.scss';
+@import './module/up-footer.scss';
+@import './module/inline-block.scss';
+@import './module/parallax-thumbnail.scss';
+@import './module/article-title.scss';
+@import './module/align-text-center.scss';
+@import './module/btn-down.scss';
+@import './module/boots-img-thumbnail.scss';
+@import './module/boots-dropdown-menu.scss';
+@import './module/boots-breadcrumb-item.scss';
+@import './module/boots-breadcrumb.scss';
+@import './module/box-shadow.scss';
+@import './module/parallax-simpleParallax.scss';
+@import './module/text-cinza.scss';
+@import './module/article-detalhes.scss';
+@import './module/bg-escuro3.scss';
+@import './module/share.scss';
+@import './module/flex-column-article.scss';
+@import './module/btn-up.scss';
+
+
+// State
+@import './state/s-fixed-bottom.scss';
+@import './state/s-show-display.scss';
+@import './state/s-dark-filter.scss';

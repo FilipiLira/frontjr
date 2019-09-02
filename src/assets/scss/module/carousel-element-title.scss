@@ -1,0 +1,7 @@
+.carousel-element-title{
+    font-size: $font-size-h2-xl;
+    text-shadow: 2px 2px 10px rgb(155, 154, 154);
+    @media(max-width: 650px){
+       font-size: $font-size-h2-sm;
+    }
+}

@@ -1,0 +1,5 @@
+.box-shadow{
+    @include box-shadow(0.5px, 0.5px, 7px, #2d2e30)
+    //box-shadow(0.5px, 0.5px, 7px, #2d2e30)
+    //box-shadow(0.5px, 0.5px, 5px, #323435)
+}

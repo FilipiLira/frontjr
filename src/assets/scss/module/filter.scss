@@ -1,0 +1,7 @@
+.filter{
+   filter: blur(7px); // função de desfoque 
+
+   @media(max-width: 900px){
+      filter: none;
+   }
+}

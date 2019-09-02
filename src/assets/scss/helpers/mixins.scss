@@ -1,0 +1,14 @@
+@mixin box-shadow($botton:0.5px, $right: 0.5px, $esf: 5px, $sha: rgb(175, 174, 174)){
+   box-shadow: $botton $right $esf $sha;
+   -webkit-box-shadow: $botton $right $esf $sha;
+   -moz-box-shadow: $right $botton $right $sha;
+   -o-box-shadow: $right $botton $right $sha
+}
+
+@mixin borderR($border: 0){
+   border-radius: $border!important;
+   -webkit-border-radius: $border!important;
+   -moz-border-radius: $border!important;
+   -o-border-radius: $border!important;
+}
+

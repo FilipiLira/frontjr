@@ -1,0 +1,7 @@
+.breadcrumb-item::before{
+ 
+}
+
+.breadcrumb::before:nth-child(1){
+    color:red;
+}
